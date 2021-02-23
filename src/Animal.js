@@ -3,7 +3,8 @@
 function Animal(props) {
     return (
         <div>
-            <h1>{props.animal}</h1>
+            <h1>{props.name}</h1>
+            <p>They are a {props.animal}</p>
         </div>
     )
 }
