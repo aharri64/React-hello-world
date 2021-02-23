@@ -1,5 +1,3 @@
-import logo from './logo.svg';
-import './App.css';
 import Animal from './Animal'
 import Human from './Human'
 
