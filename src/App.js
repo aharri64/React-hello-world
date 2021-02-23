@@ -1,5 +1,6 @@
 import Animal from './Animal'
 import Human from './Human'
+import Car from './Car'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Animal animal="cat" name="Garfield"/>
       <h1>Humans</h1>
       <Human name="Amir" location="Denver, CO"/>
+      <Car />
     </div>
   );
 }
