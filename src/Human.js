@@ -1,10 +1,10 @@
 // * My functional component
 
-function Human() {
+function Human(props) {
     return(
         <div>
-            <h1>{prop.name}</h1>
-            <h3>They live in {prop.location}</h3>
+            <h1>{props.name}</h1>
+            <h3>They live in {props.location}</h3>
         </div>
     )
 }
